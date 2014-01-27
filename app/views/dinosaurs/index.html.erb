@@ -1,0 +1,23 @@
+<button>Add A Dinosaur</button>
+
+<h1>Dinosaurs Galore</h1>
+<table>
+  <thead>
+    <tr>Name</tr>
+    <tr>Species</tr>
+    <tr>Diet</tr>
+  </thead>
+  
+  <% @dinosaurs.each do |dinosaur| %>
+    <tr>
+      <%= dinosaur.name %>
+    </tr>
+    <tr>
+      <%= dinosaur.species %>
+    </tr>
+    <tr>
+      <%= dinosaur.diet %>
+    </tr>
+  <% end %>
+
+</table>
