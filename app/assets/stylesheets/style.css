@@ -3,8 +3,14 @@ body {
   font-family: Helvetica;
   color: darkgreen;
   font-size: 16px;
+  line-height: 1.4;
 }
 
 h1 {
   font-size: 3em;
 }
+
+td {
+  text-align: right;
+}
+
