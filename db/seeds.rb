@@ -5,3 +5,25 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Dinosaur.delete_all
+
+dino_species = [
+  "Tyrannosaurus Rex",
+  "Triceratops",
+  "Velociraptor",
+  "Stegosaurus",
+  "Brachiosaurus",
+  "Dilophosaurus"
+]
+
+diets = [
+  "Herbivore",
+  "Omnivore",
+  "Carnivore"
+]
+
+ 30.times do
+   Dinosaur.create!(name: Faker::Name.name, species: dino_species.sample, diet: diets.sample)
+ end
+
+# Dinosaur.create(name: "larry page")
