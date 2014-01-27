@@ -22,8 +22,6 @@ diets = [
   "Carnivore"
 ]
 
-#  30.times do
-#    Dinosaur.create!(name: Faker::Name.name, species: dino_species.sample, diet: diets.sample)
-#  end
-
-Dinosaur.create(name: "larry page", species: "T-Rex", diet: "carnivore")
+30.times do
+  Dinosaur.create!(name: Faker::Name.name, species: dino_species.sample, diet: diets.sample)
+end
