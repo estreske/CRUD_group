@@ -13,6 +13,8 @@ class DinosaursController < ApplicationContoller
   end
 
   def destroy
+    Dinosaur.find(params[:id]).destroy
+    redirect_to => 'dinosaurs#show'
   end
 
   def show
