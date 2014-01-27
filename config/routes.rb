@@ -1,6 +1,6 @@
 CRUDGroup::Application.routes.draw do
   
-  root :to => 'welcome#index'
+  root :to => 'dinosaurs#show'
   resources :dinosaurs
 
 end
