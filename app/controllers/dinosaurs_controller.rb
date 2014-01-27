@@ -1,4 +1,4 @@
-class DinosaursController < ApplicationContoller
+class DinosaursController < ApplicationController
 
   def new
     @dinosaur = Dinosaur.new
@@ -23,6 +23,7 @@ class DinosaursController < ApplicationContoller
   def destroy
     @dinosaur = Dinosaur.find(params[:id]).destroy
     redirect_to dinosaurs_path
+  end
 
   def show
   end
