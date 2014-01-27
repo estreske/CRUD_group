@@ -4,11 +4,11 @@ class Dinosaur < ActiveRecord::Base
 
   before_save :titleize
 
-   private
+  private
 
-   def titleize
-     capitalized_array = self.name.split.map { |word| word.capitalize }
-     self.name = capitalized_array.split.join(" ")
-   end
+  def titleize
+    capitalized_array = self.name.split.map { |word| word.capitalize }
+    self.name = capitalized_array.split.join(" ")
+  end
 
 end
