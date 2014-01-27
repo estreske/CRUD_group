@@ -43,15 +43,13 @@ test:
   encoding: unicode
   database: CRUD_group_test
   pool: 5
-  username: jonathantrope
+  username:
   password:
-  host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
   database: CRUD_group_production
   pool: 5
-  username: jonathantrope
+  username:
   password:
-  host: localhost
