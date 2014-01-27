@@ -21,7 +21,8 @@ class DinosaursController < ApplicationContoller
   end
 
   def destroy
-  end
+    @dinosaur = Dinosaur.find(params[:id]).destroy
+    redirect_to dinosaurs_path
 
   def index
   end
