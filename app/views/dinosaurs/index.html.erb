@@ -1,5 +1,5 @@
 <form action='/dinosaurs/new'>
-<button>Add A Dinosaur</button>
+  <button>Add A Dinosaur</button>
 </form>
 
 <h1>Dinosaurs Galore</h1>
@@ -22,16 +22,13 @@
       <%= dinosaur.diet %>
     </td>
     <td>
-    <input type="submit" value="edit" name="edit">
-    <input type="submit" value="delete" name="delete">
-    <%= link_to "Delete", {action: "destroy", id: dinosaur.id, method: destroy } %>
-  </td>
-</tr>
+      <input type="submit" value="edit" name="edit">
+      <input type="submit" value="delete" name="delete">
+      <%= link_to "Delete", {action: "destroy", id: dinosaur.id, method: :delete } %>
+    </td>
+  </tr>
   <% end %>
 
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
+</tbody>
 
 </table>
