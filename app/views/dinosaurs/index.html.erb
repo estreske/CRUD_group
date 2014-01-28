@@ -3,12 +3,11 @@
 <h1>Dinosaurs Galore</h1>
 <table>
   <thead>
-    <tr>Name</tr>
-    <tr>Species</tr>
-    <tr>Diet</tr>
+    <th> Name </th>
+    <th> Species </th>
+    <th> Diet </th>
   </thead>
-
-
+  <tbody>
   <% @dinosaurs.each do |dinosaur| %>
   <tr>
     <td>
@@ -26,5 +25,6 @@
   </td>
 </tr>
   <% end %>
+</tbody>
 
 </table>
