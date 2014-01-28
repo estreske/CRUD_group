@@ -25,7 +25,6 @@
           <form action='/dinosaurs/<%= dinosaur.id %>/edit'>
           <input type="submit" value="edit" name="edit">
         </form>
-          <%= link_to "Delete", {action: "destroy", id: dinosaur.id}, method: :delete %>
 
           <button><%= link_to "Delete", {action: "destroy", id: dinosaur.id}, method: :delete %></button>
 
