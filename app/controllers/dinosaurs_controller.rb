@@ -26,6 +26,7 @@ class DinosaursController < ApplicationController
   end
 
   def index
+    @dinosaurs = Dinosaur.all
   end
 
 end
