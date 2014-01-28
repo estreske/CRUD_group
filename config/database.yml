@@ -17,8 +17,9 @@ development:
   encoding: unicode
   database: CRUD_group_development
   pool: 5
-  username: jujube
+  username:
   password:
+  host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -70,4 +71,35 @@ development:
 #   pool: 5
 #   username: 
 #   password:
+<<<<<<< HEAD
 # >>>>>>> f20964aa8b0255c3905a40181e96ad5caf96eeb8
+=======
+=======
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: CRUD_group_test
+  pool: 5
+<<<<<<< HEAD
+  username: jonathantrope
+=======
+  username: 
+>>>>>>> 9601f6f9786a5bd9d820632fd0ec2572e1dd65bd
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: CRUD_group_production
+  pool: 5
+<<<<<<< HEAD
+  username: jonathantrope
+  password:
+  host: localhost
+=======
+  username: 
+  password:
+>>>>>>> f20964aa8b0255c3905a40181e96ad5caf96eeb8
+>>>>>>> 9601f6f9786a5bd9d820632fd0ec2572e1dd65bd
+>>>>>>> 5d96323369be018266fbaa747f63f33881151b55
