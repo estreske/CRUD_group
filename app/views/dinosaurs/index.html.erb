@@ -9,24 +9,25 @@
     <th> Species </th>
     <th> Diet </th>
   </thead>
-  <tbody>
-    <% @dinosaurs.each do |dinosaur| %>
-      <tr>
-        <td>
-          <%= dinosaur.name %>
-        </td>
-        <td>
-          <%= dinosaur.species %>
-        </td>
-        <td>
-          <%= dinosaur.diet %>
-        </td>
-        <td>
-          <form action='/dinosaurs/<%= dinosaur.id %>/edit'>
-          <input type="submit" value="edit" name="edit">
-        </form>
-
-          <button><%= link_to "Delete", {action: "destroy", id: dinosaur.id}, method: :delete %></button>
+  
+  <% @dinosaurs.each do |dinosaur| %>
+  <tr>
+    <td>
+      <%= dinosaur.name %>
+    </td>
+    <td>
+      <%= dinosaur.species %>
+    </td>
+    <td>
+      <%= dinosaur.diet %>
+    </td>
+    <td>
+    <input type="submit" value="edit" name="edit">
+    <input type="submit" value="delete" name="delete">
+    <%= link_to "Delete", {action: "destroy", id:dinosaur.id}, method: :delete } %>
+  </td>
+</tr>
+  <% end %>
 
         </td>
       </tr>
