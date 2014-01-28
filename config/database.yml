@@ -17,11 +17,7 @@ development:
   encoding: unicode
   database: CRUD_group_development
   pool: 5
-<<<<<<< HEAD
   username: jonathantrope
-=======
-  username: 
->>>>>>> 9601f6f9786a5bd9d820632fd0ec2572e1dd65bd
   password:
   host: localhost
 
@@ -34,7 +30,7 @@ development:
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
 
-  # Minimum log levels, in increasing order:
+
   #   debug5, debug4, debug3, debug2, debug1,
   #   log, notice, warning, error, fatal, and panic
   # The server defaults to notice.
@@ -43,33 +39,12 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-<<<<<<< HEAD
-# test:
-#   adapter: postgresql
-#   encoding: unicode
-#   database: CRUD_group_test
-#   pool: 5
-#   username: evanbesser
-#   password:
-
-# production:
-#   adapter: postgresql
-#   encoding: unicode
-#   database: CRUD_group_production
-#   pool: 5
-#   username: evanbesser
-#   password:
-=======
 test:
   adapter: postgresql
   encoding: unicode
   database: CRUD_group_test
   pool: 5
-<<<<<<< HEAD
   username: jonathantrope
-=======
-  username: 
->>>>>>> 9601f6f9786a5bd9d820632fd0ec2572e1dd65bd
   password:
   host: localhost
 
@@ -78,12 +53,6 @@ production:
   encoding: unicode
   database: CRUD_group_production
   pool: 5
-<<<<<<< HEAD
   username: jonathantrope
   password:
   host: localhost
-=======
-  username: 
-  password:
->>>>>>> f20964aa8b0255c3905a40181e96ad5caf96eeb8
->>>>>>> 9601f6f9786a5bd9d820632fd0ec2572e1dd65bd
