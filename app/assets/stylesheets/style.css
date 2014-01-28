@@ -1,13 +1,16 @@
 body {
-  background-color: lightgreen;
+  /*background-color: lightgreen;*/
+  background: url("http://i.telegraph.co.uk/multimedia/archive/02425/USA-DINOSAUR-OBAMA_2425191b.jpg");
   font-family: Helvetica;
-  color: darkgreen;
+  /*color: darkgreen;*/
+  color: #E8E8E8;
   font-size: 16px;
   line-height: 1.4;
 }
 
 h1 {
   font-size: 3em;
+  font-family: 'Monoton', cursive;
 }
 
 td {

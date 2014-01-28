@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: CRUD_group_development
   pool: 5
-  username: 
+  username: jujube
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -35,16 +35,32 @@ development:
   # The server defaults to notice.
   #min_messages: warning
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
-<<<<<<< HEAD
+# # Warning: The database defined as "test" will be erased and
+# # re-generated from your development database when you run "rake".
+# # Do not set this db to the same as development or production.
+# <<<<<<< HEAD
+# # test:
+# #   adapter: postgresql
+# #   encoding: unicode
+# #   database: CRUD_group_test
+# #   pool: 5
+# #   username: evanbesser
+# #   password:
+
+# # production:
+# #   adapter: postgresql
+# #   encoding: unicode
+# #   database: CRUD_group_production
+# #   pool: 5
+# #   username: evanbesser
+# #   password:
+# =======
 # test:
 #   adapter: postgresql
 #   encoding: unicode
 #   database: CRUD_group_test
 #   pool: 5
-#   username: evanbesser
+#   username: 
 #   password:
 
 # production:
@@ -52,22 +68,6 @@ development:
 #   encoding: unicode
 #   database: CRUD_group_production
 #   pool: 5
-#   username: evanbesser
+#   username: 
 #   password:
-=======
-test:
-  adapter: postgresql
-  encoding: unicode
-  database: CRUD_group_test
-  pool: 5
-  username: 
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: CRUD_group_production
-  pool: 5
-  username: 
-  password:
->>>>>>> f20964aa8b0255c3905a40181e96ad5caf96eeb8
+# >>>>>>> f20964aa8b0255c3905a40181e96ad5caf96eeb8
