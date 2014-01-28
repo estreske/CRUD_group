@@ -8,18 +8,23 @@
     <tr>Diet</tr>
   </thead>
 
+  
   <% @dinosaurs.each do |dinosaur| %>
-    <tr>
+  <tr>
+    <td>
       <%= dinosaur.name %>
-    </tr>
-    <tr>
+    </td>
+    <td>
       <%= dinosaur.species %>
-    </tr>
-    <tr>
+    </td>
+    <td>
       <%= dinosaur.diet %>
-    </tr>
-    <input type="submit" name-"edit">
-    <input type="submit" name-"delete">
+    </td>
+    <td>
+    <input type="submit" value="edit" name="edit">
+    <input type="submit" value="delete" name="delete">
+  </td>
+</tr>
   <% end %>
 
 </table>

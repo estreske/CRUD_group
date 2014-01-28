@@ -18,6 +18,7 @@ development:
   database: CRUD_group_development
   pool: 5
   username: jonathantrope
+  username: evanbesser
   password:
   host: localhost
 
@@ -53,6 +54,6 @@ production:
   encoding: unicode
   database: CRUD_group_production
   pool: 5
-  username:
+  username: evanbesser
   password:
   host: localhost

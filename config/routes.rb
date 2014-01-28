@@ -1,6 +1,6 @@
 CRUDGroup::Application.routes.draw do
  
-  root to: dinosaurs_path
+  root to: 'dinosaurs#index'
 
   resources :dinosaurs
 
