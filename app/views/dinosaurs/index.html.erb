@@ -21,8 +21,7 @@
         </td>
         <td>
           <input type="submit" value="edit" name="edit">
-          <input type="submit" value="delete" name="delete">
-          <%= link_to "Delete", {action: "destroy", id: dinosaur.id}, method: :delete %>
+          <button><%= link_to "Delete", {action: "destroy", id: dinosaur.id}, method: :delete %></button>
         </td>
       </tr>
     <% end %>
